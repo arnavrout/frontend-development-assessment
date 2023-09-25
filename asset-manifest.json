@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/frontend-development-assessment/static/css/main.c130e768.css",
+    "main.js": "/frontend-development-assessment/static/js/main.1d69cb6b.js",
+    "static/js/787.0010476d.chunk.js": "/frontend-development-assessment/static/js/787.0010476d.chunk.js",
+    "static/media/blue-bag.jpg": "/frontend-development-assessment/static/media/blue-bag.221201b4ad2562bef4df.jpg",
+    "static/media/brown-bag.jpg": "/frontend-development-assessment/static/media/brown-bag.67909b3c24b0948c5538.jpg",
+    "static/media/pink-bag.jpg": "/frontend-development-assessment/static/media/pink-bag.779e239f5c0e73e54a84.jpg",
+    "index.html": "/frontend-development-assessment/index.html",
+    "main.c130e768.css.map": "/frontend-development-assessment/static/css/main.c130e768.css.map",
+    "main.1d69cb6b.js.map": "/frontend-development-assessment/static/js/main.1d69cb6b.js.map",
+    "787.0010476d.chunk.js.map": "/frontend-development-assessment/static/js/787.0010476d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c130e768.css",
+    "static/js/main.1d69cb6b.js"
+  ]
+}
