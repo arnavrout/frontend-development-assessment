@@ -1,0 +1,140 @@
+
+.product {
+    padding: 20px 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.category {
+    flex: 0 0 40%;
+    order: 1;
+}
+
+.product-card {
+    flex: 0 0 55%;
+    order: 2;
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.category h1 {
+    margin-bottom: 15px;
+    color: #004225;
+}
+
+.item-info {
+    margin: 0;
+    color: #004225;
+    font-weight: 500;
+}
+
+.info-button {
+    display: flex;
+    margin: 10px 0;
+    padding: 8px 8px;
+    border: none;
+    background: #004225;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.description {
+    background-color: #fff;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.description p {
+    line-height: 1.5;
+    text-align: left;
+    font-size: 18px;
+}
+
+.description h4 {
+    margin: 0;
+    text-align: left;
+    font-size: 18px;
+}
+
+.category h2 {
+    margin: 20px 0;
+}
+
+.category p {
+    width: 100%;
+}
+
+
+.product-card {
+    width: 80%;
+    height: 100%;
+    padding: 10px 10px;
+    margin-left: auto;
+    margin-top: 16px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.bag-image img{
+    width: 100px;
+    margin: 10px 10px;
+}
+
+.card-body {
+    margin: 20px 10px;
+}
+
+.card-btn {
+    margin-bottom: 15px;
+}
+
+.card-btn p {
+    margin: 10px 0;
+}
+
+.card-btn button {
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+  /* Applying media query for mobile and tablet screens */
+  @media screen and (max-width: 710px) and (min-width: 320px) {
+    .product {
+        flex-direction: column;
+        background: linear-gradient(130deg, #F5F5DC 46%, #FFCF9D 54%);
+        padding: 10px 20px;
+    }
+
+    .category {
+        order: 2; /* Swapping order to display category second */
+    }
+
+    .product-card {
+        order: 1; /* Swapping order to display product-card first */
+    }
+    
+    .description {
+        width: 90%;
+    }
+
+    .product-card {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+
